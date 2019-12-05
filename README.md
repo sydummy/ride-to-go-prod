@@ -1,1 +1,2 @@
-# ride-to-go-prod
+## About
+Car Rental API
