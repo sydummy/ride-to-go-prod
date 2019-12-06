@@ -9,9 +9,8 @@ Car Rental API
 ```
 **Usage**\
 HEADERS\
-`
-Acceptapplication/json\
-Content-Typeapplication/json`
+`Acceptapplication/json`\
+`Content-Typeapplication/json`
 ```
 {
 	"f_name":"First",
