@@ -7,8 +7,8 @@ Car Rental API
 ```
 /api/v1/a/register/
 ```
-**Usage**
-HEADERS
+**Usage**\
+HEADERS\
 `
 Acceptapplication/json
 Content-Typeapplication/json`
