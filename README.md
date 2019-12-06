@@ -10,7 +10,7 @@ Car Rental API
 **Usage**\
 HEADERS\
 `
-Acceptapplication/json
+Acceptapplication/json\
 Content-Typeapplication/json`
 ```
 {
