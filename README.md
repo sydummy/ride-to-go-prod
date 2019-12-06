@@ -2,4 +2,4 @@
 Car Rental API
 
 ## API's
-<addr>/api/v1/a/register/
+[I'm an inline-style link]/api/v1/a/register/
