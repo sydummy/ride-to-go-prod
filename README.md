@@ -13,7 +13,7 @@
 
 Car Rental API
 
-## API's Overview
+## API's Overview (v1)
 
 **POST Register Admin User**
 
@@ -24,7 +24,7 @@ Car Rental API
 **POST Login Admin User**
 
 ```
-api/v1/a/login
+/api/v1/a/login
 ```
 
 ## API's
