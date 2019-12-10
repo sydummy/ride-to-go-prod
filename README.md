@@ -17,15 +17,11 @@ Car Rental API
 
 **POST Register Admin User**
 
-```
-/api/v1/a/register/
-```
+-   /api/v1/a/register/
 
 **POST Login Admin User**
 
-```
-/api/v1/a/login
-```
+-   /api/v1/a/login
 
 ## API's
 
