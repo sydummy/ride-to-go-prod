@@ -15,10 +15,10 @@ Car Rental API
 
 ## API's Overview (v1)
 
-| Action         | Method | API                 | Headers                                                 |
-| -------------- | ------ | ------------------- | ------------------------------------------------------- |
-| Admin Login    | POST   | /api/v1/a/login/    | `Acceptapplication/json \ Content-Typeapplication/json` |
-| Admin Register | POST   | /api/v1/a/register/ | `Acceptapplication/json \ Content-Typeapplication/json` |
+| Action           | Method | API                   | Headers                                                     |
+| ---------------- | ------ | --------------------- | ----------------------------------------------------------- |
+| `Admin Login`    | `POST` | `/api/v1/a/login/`    | `Acceptapplication/json`<br> `Content-Typeapplication/json` |
+| `Admin Register` | `POST` | `/api/v1/a/register/` | `Acceptapplication/json`<br> `Content-Typeapplication/json` |
 
 ## API's
 
