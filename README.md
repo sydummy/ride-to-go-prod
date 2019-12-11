@@ -11,15 +11,15 @@
 
 ## About
 
-Car Rental API
+Car Rental API's and Usage
 
 ## API's Overview (v1)
 
-| Action           | Method | API                   | Headers                                                     | Body |
-| ---------------- | ------ | --------------------- | ----------------------------------------------------------- | ---- |
-| `Admin Login`    | `POST` | `/api/v1/a/login/`    | `Acceptapplication/json`<br> `Content-Typeapplication/json` |      |
-| `Admin Register` | `POST` | `/api/v1/a/register/` | `Acceptapplication/json`<br> `Content-Typeapplication/json` |      |
-| `Admin Register` | `POST` | `/api/v1/a/register/` | `Acceptapplication/json`<br> `Content-Typeapplication/json` |      |
+| Action           | Method | API                   | Headers                                                     |
+| ---------------- | ------ | --------------------- | ----------------------------------------------------------- |
+| `Admin Login`    | `POST` | `/api/v1/a/login/`    | `Acceptapplication/json`<br> `Content-Typeapplication/json` |
+| `Admin Register` | `POST` | `/api/v1/a/register/` | `Acceptapplication/json`<br> `Content-Typeapplication/json` |
+| `Admin Register` | `POST` | `/api/v1/a/register/` | `Acceptapplication/json`<br> `Content-Typeapplication/json` |
 
 ## API's
 
@@ -34,15 +34,34 @@ HEADERS\
 `Acceptapplication/json`\
 `Content-Typeapplication/json`
 
-```
+```json
 {
-	"f_name":"First",
-	"m_name":"Mid",
-	"l_name":"Last",
-	"age":"22",
-	"birthdate":"1999-05-31",
-	"email":"admin@gmail.com",
-	"password":"secret!!!1999!!!",
-	"password_confirmation":"secret!!!1999!!!"
+    "f_name": "First",
+    "m_name": "Middle",
+    "l_name": "Last",
+    "age": "22",
+    "birthdate": "1999-05-31",
+    "email": "admin@gmail.com",
+    "password": "password!!!2019!!!",
+    "password_confirmation": "password!!!2019!!!"
+}
+```
+
+## **POST Login Admin User**
+
+```
+/api/v1/a/login/
+```
+
+**Usage**\
+HEADERS\
+`Acceptapplication/json`\
+`Content-Typeapplication/json`
+
+```json
+{
+    "email": "admin@gmail.com",
+    "password": "password!!!2019!!!",
+    "remember_me": false
 }
 ```

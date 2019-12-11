@@ -77,6 +77,6 @@ class AdminController extends Controller
     }
     public function account_details(User $user)
     {
-        return Auth::user();
+        return 'Test';
     }
 }
